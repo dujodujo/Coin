@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:id="@+id/wallet_transactions_context_edit_address"
+        android:icon="@android:drawable/arrow_up_float"
+        android:title="@string/button_edit" />
+    
+    <item 
+        android:id="@+id/wallet_transactions_context_show"
+        android:icon="@android:drawable/arrow_down_float"
+        android:title="@string/wallet_transactions_context_show_title" />
+    
+    <item 
+        android:id="@+id/wallet_transactions_context_explorer"
+        android:title="@string/action_open_block_explorer" />
+
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/export_button_password"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/button_ok"
+		android:textSize="@dimen/font_size_normal" />
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/export_keys_dialog_title"
+        android:textSize="@dimen/font_size_normal" />
+    
+    <EditText 
+        android:id="@+id/export_keys_dialog_password"
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"
+		android:singleLine="true"
+		android:textSize="@dimen/font_size_small" >
+        <requestFocus/>
+	</EditText>
+    
+    <CheckBox 
+        android:id="@+id/export_keys_dialog_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/import_keys_dialog_title"
+        android:textSize="@dimen/font_size_normal" />
+    
+</LinearLayout>

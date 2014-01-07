@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">AWallet</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+   	<string name="wallet_activity">Wallet Activity</string>
+    <string name="scan_activity">Scan Activity</string>
+    <string name="network_activity">Network Activity</string>
+    <string name="exchange_rates_activity">Exchange Rates Activity</string>
+    <string name="request_coins_activity">Request Coins Activity</string>
+    <string name="send_coins_activity">Send Coins Activity</string>
+    <string name="address_book_activity">Address Book Activity</string>
+  	
+  	<string name="import_keys_dialog">Import private keys</string>
+  	<string name="export_keys_dialog">Export private keys</string>
+  	<string name="import_export_keys">Export Import</string>
+  	
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="button_add">Add</string>
+    <string name="button_edit">Edit</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_request_coins">Request coins</string>
+    <string name="button_send_coins">Send coins</string>
+    <string name="button_help">Button Help</string>
+    <string name="button_scan">Scan</string>
+    
+    <string name="toast_wallet_reset">Wallet Reset</string>
+	<string name="address_book_row_message_danger_key">Danger Key</string>    
+    
+	<string name="address_book_empty_text">No entries in address book</string>
+    <string name="address_book_options_title">Options Title</string>
+    <string name="address_book_scan_title">Scan Title</string>
+    <string name="address_book_list_receiving_title">Receiving addresses</string>
+	<string name="address_book_list_sending_title">Sending addresses</string>
+
+	<string name="wallet_addresses_fragment_add_dialog_title">Add Dialog Title</string>
+    <string name="wallet_addresses_fragment_add_dialog_message">Add Dialog Message</string>
+    <string name="wallet_address_fragment_id">Coin ID Address</string>
+    <string name="wallet_transactions_context_show_title">Show Code</string>
+    <string name="wallet_transaction_fragment_coin">Coin Mining</string>
+    <string name="wallet_coin_address_fragment">Coin Address</string>
+    <string name="wallet_info_fragment_backup">Fragment Backup</string>
+    <string name="wallet_info_fragment_safety">Fragment Safety</string>
+    <string name="wallet_donate_address_label">Wallet Donate Address</string>
+    
+   	<string name="exchange_rates_fragment_default">Default</string>
+    <string name="exchange_rates_fragment_rate">Rate</string>
+    <string name="exchange_rates_fragment_balance">Balance</string>
+    <string name="exchange_rates_fragment_empty_rate">Problem loading exchange rates</string>
+    
+    <string name="notification_connected_message">Connected</string>
+    <string name="notification_coins_received_message">%s coins received</string>
+    
+    <string name="export_keys_dialog_title">Export Keys Dialog Title</string>
+    <string name="import_keys_dialog_title">Import Keys Dialog Title</string>
+    <string name="export_keys_dialog_button_export">Export Key</string>
+    
+    <string name="symbol_local">o</string>
+    <string name="symbol_finish">-l</string>
+    <string name="symbol_start">l-</string>
+    
+  	<string name="send_coins_fragment_receiving_address_label">Pay to</string>
+  	<string name="send_coins_fragment_amount_label">Amount to pay</string>
+  	
+	<string name="address_unlabel">unlabel</string>
+	<string name="action_open_block_explorer">Open in http://blockexplorer.com</string>
+    
+	<string name="send_coins_button_send">Sent</string>
+	<string name="send_coins_preparing_message">Preparing</string>
+	<string name="send_coins_sending_message">Sending</string>
+	<string name="send_coins_sent_message">Sent</string>
+	<string name="send_coins_fragment_button_back">Back</string>
+	<string name="send_coins_failed_message">Failed</string>
+	<string name="send_coins_options_empty">Empty</string>
+	
+	<string name="blockchain_state_progress_problem_storage">Storage Problem</string>
+	<string name="blockchain_state_progress_problem_network">Network Problem</string>
+	
+	<string name="network_block_list_title">Block title</string>
+		
+</resources>

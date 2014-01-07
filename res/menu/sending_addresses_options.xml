@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+		android:id="@+id/sending_addresses_options_send"
+		android:icon="@drawable/ic_action_send"
+		android:showAsAction="ifRoom|withText"
+		android:title="@string/address_book_options_send_title"
+		android:titleCondensed="@string/button_send_coins"/>
+	<item
+		android:id="@+id/sending_addresses_options_edit"
+		android:icon="@drawable/ic_action_edit"
+		android:showAsAction="ifRoom|withText"
+		android:title="@string/address_book_options_edit_title"
+		android:titleCondensed="@string/button_edit" />
+	<item
+		android:id="@+id/sending_addresses_options_remove"
+		android:icon="@drawable/ic_action_receive"
+		android:title="@string/address_book_options_remove_title"
+		android:titleCondensed="@string/button_delete" />
+</menu>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+   	<TextView 
+	    android:id="@+id/send_coins_fragment_receiving_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_edit"
+        android:textSize="@dimen/font_size_normal"
+        android:layout_gravity="right" />
+   	
+   	<Button 
+   	    android:id="@+id/context_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right" />
+
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item
+		android:id="@+id/wallet_options_address_book"
+		android:icon="@drawable/stat_notify"
+		android:title="@string/address_book_activity" />
+	<item
+		android:id="@+id/wallet_options_exchange_rate"
+		android:icon="@drawable/stat_notify"
+		android:title="@string/exchange_rates_activity"/>
+	<item 
+	    android:id="@+id/wallet_send_coins_activity"
+	    android:icon="@android:drawable/star_on"
+	    android:title="@string/send_coins_activity" />
+	<item 
+	    android:id="@+id/wallet_network_activity"
+	    android:icon="@drawable/stat_notify"
+	    android:title="@string/network_activity" />
+    <item
+        android:id="@+id/import_export_keys"
+  		android:icon="@drawable/stat_notify"
+        android:title="@string/import_export_keys" >
+        <menu>
+            <item 
+                android:id="@+id/wallet_options_export_keys"
+                android:icon="@drawable/stat_notify"
+                android:title="@string/export_keys_dialog" />
+			<item 
+                android:id="@+id/wallet_options_import_keys"
+                android:icon="@drawable/stat_notify"
+                android:title="@string/import_keys_dialog" />
+        </menu>
+    </item>
+
+    <item
+		android:id="@+id/wallet_options_scan"
+		android:icon="@drawable/stat_notify"
+		android:title="@string/button_scan" />
+</menu>

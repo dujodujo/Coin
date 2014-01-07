@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/exchange_rates_context_set"
+        android:title="@string/exchange_rates_fragment_default"
+        android:titleCondensed="@string/button_ok" />
+</menu>

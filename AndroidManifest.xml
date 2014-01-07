@@ -1,0 +1,83 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="si.a.coin.app"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="13" android:targetSdkVersion="15" />
+
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    
+    <application 
+        android:name="si.a.application.WalletApplication"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="si.a.coin.WalletActivity"
+            android:label="@string/app_name" >
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<activity
+            android:name="si.a.coin.AddressBookActivity"
+            android:label="@string/address_book_activity" >
+	    </activity>
+	    
+        <activity
+            android:name="si.a.coin.ExchangeRatesActivity"
+            android:label="@string/exchange_rates_activity" >
+	    </activity>
+	    
+        <activity 
+            android:name="si.a.coin.ScanActivity"
+            android:label="@string/scan_activity">
+        </activity>
+        
+        <activity 
+            android:name="si.a.coin.SendCoinsActivity"
+            android:label="@string/send_coins_activity">
+        </activity>
+        
+        <activity 
+            android:name="si.a.coin.NetworkActivity"
+            android:label="@string/network_activity" >
+        </activity>
+
+        <receiver 
+            android:name="si.a.receiver.WalletBalanceWidgetProvider"
+            android:label="Coin Balance" >
+
+            <meta-data 
+        	    android:name="android.appwidget.provider" 
+        	    android:resource="@xml/wallet_balance_provider" />
+            	
+        	<intent-filter>
+        	    <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+        	</intent-filter>
+        </receiver>
+        
+ 		
+        <provider 
+            android:name="si.a.provider.AddressBookProvider"
+            android:authorities="si.a.coin.app.address_book"
+            android:exported="false" />
+        
+    	<provider
+			android:name="si.a.provider.ExchangeRateProvider"
+			android:authorities="si.a.coin.app.exchanges_rates"
+			android:exported="false" />
+    	
+    	<service 
+    	    android:name="si.a.service.BlockchainServiceImplementation"
+    	    android:exported="false" />
+    </application>
+</manifest>
